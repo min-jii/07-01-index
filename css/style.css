@@ -1,0 +1,164 @@
+html{font-family: 'Roboto', sans-serif;}
+		body,h1,h2,h3,p,div,ul,li,img{
+			margin: 0;
+			padding: 0;
+		}
+		h1{
+			font-weight: 700;
+			font-size: 1.3rem;
+			word-spacing: -0.2px;
+		}	
+		h2{
+			font-weight: 400;
+			font-size: 1.3rem;
+			word-spacing: -0.5px;
+		}
+		h3{
+			font-weight: 500;
+			font-size: 1.3rem;
+			word-spacing: -0.5px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+		h4{
+			font-weight: 500;
+			font-size: 1.1rem;
+			word-spacing: -0.5px;
+		}
+		p{
+			margin-bottom: 8px;
+			font-weight: 300;
+			line-height: 1.4;
+			font-size: 1rem;
+			word-spacing: -0.8px;
+		}
+		img{
+			display: block;
+			width: 100%;
+		}
+		a{
+			color: black;
+		}
+		.grayhover a:hover{
+           color: gray;
+     	 }
+		.whitehover a:hover{
+           color: white;
+     	 }
+     	.citrushover a:hover{
+           color: #ee7316;
+       	}
+       	.greenhover a:hover{
+           color: #729038;
+       	}
+       	.floralhover a:hover{
+           color: #e58c90;
+       	}
+       	.fruityhover a:hover{
+           color: #e94e37;
+       	}
+       	.gourmandhover a:hover{
+           color: #714c35;
+       	}
+       	.woodyhover a:hover{
+           color: #434d3f;
+       	}
+       	.abmenu{
+       		font-weight: 400;
+       		font-size: 1.1rem;
+       		text-decoration: underline;
+       		margin-right: 5px;
+       	}
+		.row{
+			position: relative;
+			width: 1200px;
+			word-break: keep-all;
+		}
+		.row div{
+			margin-top: 10px;
+			margin-left: 10px;			
+		}
+		.flexbox{
+			display: flex;
+		}
+		.menu{
+			color: black;
+			text-decoration: none;
+		}
+		
+		.pagemenu{
+			text-decoration: none;
+			font-weight: 400;
+		}
+		.pagenumber{
+			font-weight: 400;
+			margin-left: 65px;
+			font-size: 0.8rem;
+		}
+		.pagefont{
+			font-size: 0.9rem;
+		}
+		.swap{
+         position:relative;
+     	}
+      	.swap img{
+        display:block;
+        position:absolute;
+        transition: opacity 0.7s;
+      	}
+      	.swap:hover img:last-child{
+         opacity:0
+     	}
+		.col-1{
+			width: 8.33%;
+			margin: 0px 5px;
+		}
+		.col-2{
+			width: 16.66%;
+			margin: 0px 5px;
+		}
+		.col-3{
+			width: 25%;
+			margin: 0px 5px;
+		}
+		.col-4{
+			width: 33.33%;
+			margin: 0px 5px;
+		}
+		.col-5{
+			width: 41.66%;
+			margin: 0px 5px;
+		}
+		.col-6{
+			width: 50%
+			margin: 0px 5px;
+		}
+		.col-7{
+			width: 58.33%;
+			margin: 0px 5px;
+		}
+		.col-8{
+			width: 66.66%;
+			margin: 0px 5px;
+		}
+		.col-9{
+			width: 74.99%;
+			margin: 0px 5px;
+		}
+		.col-10{
+			width: 83.32%;
+			margin: 0px 5px;
+		}	
+		.col-11{
+			width: 91.66%;
+			margin: 0px 5px;
+		}
+		.col-12{
+			width: 100%;
+			margin: 0px 5px;
+		}
+		.smalltext{
+			font-weight: 700;
+			color: white;
+			font-size: 0.9rem;
+		}

@@ -1,0 +1,65 @@
+		body{perspective: 2000px;}
+		#abs41{
+			position: absolute;
+			width: 400px;
+			left: -70px;
+			top: -40px;	
+			animation: u 2.5s linear infinite alternate;
+		}
+		#abs42{
+			position: absolute;
+			width: 410px;
+			left: 280px;
+			top: -10px;	
+			animation: v 2.5s linear infinite alternate-reverse;
+		}
+		#abs43{
+			position: absolute;
+			width: 390px;
+			left: -80px;
+			top: 400px;	
+			animation: w 2.5s linear infinite alternate;
+		}
+		#abs44{
+			position: absolute;
+			width: 400px;
+			left: 290px;
+			top: 410px;	
+			animation: x 2.5s linear infinite alternate-reverse;
+		}
+		#abs45{
+			position: absolute;
+			left: 195px;
+			top: 100px;	
+		}	
+		#abs46{
+			position: absolute;
+			left: 540px;
+			top: 95px;	
+		}	
+		#abs47{
+			position: absolute;
+			left: 190px;
+			top: 700px;	
+		}	
+		#abs48{
+			position: absolute;
+			left: 545px;
+			top: 550px;	
+		}
+		@keyframes u{
+			0%{}
+			100%{transform: rotate3d(0.3,1,0.5,30deg);}
+		}
+		@keyframes v{
+			0%{}
+			100%{transform: rotate3d(0.5,1,0.3,40deg);}
+		}
+		@keyframes w{
+			0%{}
+			100%{transform: rotate3d(0.3,1,0.5,20deg);}
+		}
+		@keyframes x{
+			0%{}
+			100%{transform: rotate3d(0.3,0.3,0.3,30deg);}
+		}	
